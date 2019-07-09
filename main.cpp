@@ -1,9 +1,8 @@
-#include <QCoreApplication>
 #include <iostream>
 
 #include "lib.h"
 
-int main(int argc, char *argv[])
+int main (int, char **)
 {
     QCoreApplication a(argc, argv);
     std::cout << "Hello,world" << std::endl;
